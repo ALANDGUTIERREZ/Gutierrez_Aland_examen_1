@@ -29,7 +29,7 @@
                 <th></th>
             </tr>
             <%
-                for(Registro item : lista.getRegistros()){
+                for(registro_de_datos item : lista.getRegistros()){
             %>
             <tr>
                 <td><%= item.getId() %></td>

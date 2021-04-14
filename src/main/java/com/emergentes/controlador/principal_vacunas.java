@@ -61,8 +61,8 @@ public class principal_vacunas extends HttpServlet {
         
         obj.setId(Integer.parseInt(request.getParameter("id")));
         obj.setNombre(request.getParameter("nombre"));
-        obj.setPeso(Integer.parseDouble(request.getParameter("peso")));
-        obj.setTalla(Integer.parseDouble(request.getParameter("talla")));
+        obj.setPeso(Integer.parseInt(request.getParameter("peso")));
+        obj.setTalla(Integer.parseInt(request.getParameter("talla")));
         obj.setVacuna(request.getParameter("vacuna"));
         
         String tipo = request.getParameter("tipo");
